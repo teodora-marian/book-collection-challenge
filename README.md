@@ -20,7 +20,7 @@ The project is structured in src > components. Here you can find reusable compon
 
 I started with creating a basic React JS app structure: The first feature I implemented was the book list. I called the API you provided and I displayed the list of available books with the info I got: book cover, title, authors, categories.
 
-The next features I implemented were the header and footer. Inside the header I placed an <h1> with the title of the app and a button for changing the theme.
+The next features I implemented were the header and footer. Inside the header I placed an `<h1>` with the title of the app and a button for changing the theme.
 
 Then I worked on the the theme selector. Here I decided to save a "theme" variable in local storage, that has 2 values: dark-theme, light-theme. The default value is 'dark-theme'. When clicking on the button, you can toggle between these 2 preset values.
 
